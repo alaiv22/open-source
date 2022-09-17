@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="dashboard1.css">
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Header -->
+      <!-- <header class="header">
+
+        <a href="#" class="logo"><i class="fa-brands fa-osi"></i>open source software</a>
+        
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#blogs">programmer</a>
+            <!-- <a href="#menu">menu</a> -->
+            <!-- <a href="#order">order</a> -->
+            <!-- <a href="#nonprog">non-programmer</a>
+        </nav>
+    
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="social" class="fab fa-facebook-f"></div>
+            <div id="social" class="fab fa-instagram"></div>
+            <div id="social" class="fab fa-twitter"></div> -->
+        </div> -->
+        
+    <!-- </header> -->
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <!-- <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-icons-outlined">inventory</span> Bob's Inventory
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">dashboard</span> Dashboard
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">inventory_2</span> Products
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">fact_check</span> Inventory
+          </li>
+          <li class="sidebar-list-item"> 
+            <span class="material-icons-outlined">add_shopping_cart</span> Purchase Orders
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">shopping_cart</span> Sales Orders
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">poll</span> Reports
+          </li>
+          <li class="sidebar-list-item">
+            <span class="material-icons-outlined">settings</span> Settings -->
+          <!-- </li>
+        </ul>
+      </aside> -->
+      <!-- End Sidebar -->
+
+      <!-- Main -->
+      <main class="main-container">
+        <div class="main-title">
+          <p class="font-weight-bold">DASHBOARD</p>
+        </div>
+
+        <div class="main-cards">
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">No of Open-Source</p>
+              <span class="material-icons-outlined text-blue">inventory_2</span>
+            </div>
+            <span class="text-primary font-weight-bold">180,000</span>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">Active Projects</p>
+              <span class="material-icons-outlined text-orange">add_shopping_cart</span>
+            </div>
+            <span class="text-primary font-weight-bold">14.54 million</span>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">Largest Contributor</p>
+              <span class="material-icons-outlined text-green">shopping_cart</span>
+            </div>
+            <span class="text-primary font-weight-bold">Microsoft</span>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">Fastest Growing Opensource Contributor</p>
+              <span class="material-icons-outlined text-red">notification_important</span>
+            </div>
+            <span class="text-primary font-weight-bold">Github</span>
+          </div>
+
+        </div>
+
+        <div class="charts">
+
+          <div class="charts-card">
+            <p class="chart-title">Top 5 languages</p>
+            <div id="bar-chart"></div>
+          </div>
+
+          <div class="charts-card">
+            <p class="chart-title">Open and Commercial Source</p>
+            <div id="area-chart"></div>
+          </div>
+
+        </div>
+      </main>
+      <!-- End Main -->
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+    <script src="dashboard.js"></script>
+  </body>
+</html>
